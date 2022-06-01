@@ -24,5 +24,5 @@ enter.addEventListener("click", () => {
     console.log(input.value); //is working
     let listElement = document.createElement("li");
     ul.appendChild(listElement);
-    listElement.textContent = "input.value";
+    listElement.textContent = input.value;
 });
